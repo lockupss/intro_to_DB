@@ -1,5 +1,3 @@
--- Print full description of books table without using DESCRIBE or EXPLAIN
--- Usage: mysql <db_name> < task_4.sql
 
 SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_KEY, COLUMN_DEFAULT, EXTRA
 FROM INFORMATION_SCHEMA.COLUMNS
